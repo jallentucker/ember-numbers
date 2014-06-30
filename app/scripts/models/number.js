@@ -1,3 +1,6 @@
+'use strict';
+
+
 module.exports = function(EmberNumbers) {
   EmberNumbers.Number = DS.Model.extend({
     anotherLanguage: DS.attr('string'),
